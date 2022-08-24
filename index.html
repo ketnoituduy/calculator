@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MayTinh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" id="value" placeholder="0">
+            <button class="num numC" onclick="clr()"><i>C</i></button>
+            <button class="num numChia" onclick="display('/')"><i>/</i></button>
+            <button class="num numNhan" onclick="display('*')"><i>*</i></button>
+            <button class="num numSin" onclick="calSin()"><i>Sin</i></button>
+            <button class="num numCos" onclick="calCos()"><i>Cos</i></button>
+            <button class="num numTan" onclick="calTan()"><i>Tan</i></button>
+            <button class="num numPi" onclick="calPi()"><i>Pi</i></button>
+            <button class="num num7" onclick="display(7)"><i>7</i></button>
+            <button class="num num8" onclick="display(8)"><i>8</i></button>
+            <button class="num num9" onclick="display(9)"><i>9</i></button>
+            <button class="num numTru" onclick="display('-')"><i>-</i></button>
+            <button class="num num4" onclick="display(4)"><i>4</i></button>
+            <button class="num num5" onclick="display(5)"><i>5</i></button>
+            <button class="num num6" onclick="display(6)"><i>6</i></button>
+            <button class="num numCong" onclick="display('+')"><i>+</i></button>
+            <button class="num num1" onclick="display(1)"><i>1</i></button>
+            <button class="num num2" onclick="display(2)"><i>2</i></button>
+            <button class="num num3" onclick="display(3)"><i>3</i></button>
+            <button class="num num0" onclick="display(0)"><i>0</i></button>
+            <button class="num numCham" onclick="display('.')"><i>.</i></button>
+            <button class="num numDel" onclick="dele()"><i>Del</i></button>
+            <button class="num numBang" onclick="result()"><i>=</i></button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
